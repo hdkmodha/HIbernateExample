@@ -62,7 +62,6 @@ public class Laptop {
                 ", brand='" + brand + '\'' +
                 ", model='" + model + '\'' +
                 ", ram=" + ram +
-                ", employee=" + employee +
                 '}';
     }
 }

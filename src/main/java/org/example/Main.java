@@ -34,10 +34,6 @@ public class Main {
         employee.setLaptops(Arrays.asList(laptop));
 
         Session session = sessionFactory.openSession();
-        Transaction transaction = session.beginTransaction();
-//        session.persist(laptop);
-//        session.persist(employee);
-        transaction.commit();
         Employee employee2 = session.get(Employee.class, 103);
         System.out.println(employee2);
         session.close();
